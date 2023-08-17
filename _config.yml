@@ -1,0 +1,29 @@
+title: BbB
+author: taeho-kim
+subtitle: Bit by Bit
+description: Taeho Kim's Blog
+
+email: taehokim97@naver.com
+
+url: "https://taehokim97.github.io"
+baseurl: ""
+
+footer_only_homepage: true
+footer_url: "https://github.com/rhl-bthr"
+footer_text: "Theme by rhl-bthr"
+
+profile-picture: assets/profile.png
+favicon_location: assets/icons/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+  style: compressed
+  sass_dir: css
+
+navbar:
+  - name: "About"
+    link: "about"
+  - name: "Categories"
+    link: "categories"
+  - name: "Tags"
+    link: "tags"

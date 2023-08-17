@@ -1,0 +1,18 @@
+<div class="footer">
+    <!-- if permulink is about then skip -->
+    {% if page.url != "/about/" %}
+        
+        <hr>
+        <a href="{{ site.author }}">Written by {{ site.author }}</a>
+
+        {% if page.url == "/" and site.footer_only_homepage %}
+            <br>
+            <br>
+            <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
+            <br>
+        {% endif %}
+    {% endif %}
+    
+    
+
+</div>

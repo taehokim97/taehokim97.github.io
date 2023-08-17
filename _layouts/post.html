@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="page-subtitle">
+    {% if page.category %}
+        <b>&lt; </b> 
+        <a href="{{ site.baseurl }}/categories/#{{ page.category }}">{{ page.category }}</a> 
+        <b> &gt;</b>
+        <br />
+    {% endif %}
+    {% for tag in page.tags %}
+        {% if page.tags.first == tag %}
+            <b>[</b>
+        {% endif %}
+        <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+        {% if page.tags.last == tag %}
+            <b>]</b>
+        {% else %}
+            ,
+        {% endif %}
+    {% endfor %}
+</div>
+
+{{content}}
