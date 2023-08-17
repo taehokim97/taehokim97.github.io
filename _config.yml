@@ -11,6 +11,8 @@ baseurl: ""
 footer_only_homepage: true
 footer_url: "https://github.com/rhl-bthr"
 footer_text: "Theme by rhl-bthr"
+github_url: "https://github.com/taehokim97"
+github_text: "Written by Taeho Kim"
 
 profile-picture: assets/profile.png
 favicon_location: assets/icons/favicon.ico
