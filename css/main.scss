@@ -191,7 +191,12 @@ code {
         border-top: 0.5px solid rgba(0, 0, 0, 0.1);
         border-bottom: 0.5px solid rgba(50, 50, 50, 0.3);
     }
-
+	
+	// 한국어 bold체의 글자가 다르게 출력되어 고정하는 목적으로 추가
+	:not(h1, h2, h3, h4) {
+		font-size: 18px;
+	}
+	
     ol {
         counter-reset: list;
     }
@@ -242,7 +247,7 @@ code {
         margin: 10px 10px 10px 10px;
         max-width: $max-width;
     }
-
+	
     .color-red {
         color: #FF0F00;
     }
