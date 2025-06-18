@@ -6,6 +6,11 @@
     {% include head-custom.html %}
   </head>
   <body>
-    {{ content }}
+    {% include header.html %}
+    {% include nav.html    %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>
