@@ -1,2 +1,6 @@
 title: Self-Logging
 theme: null
+
+defaults:
+  -
+    layout: default
