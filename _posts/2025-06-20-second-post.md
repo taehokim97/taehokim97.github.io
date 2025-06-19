@@ -1,5 +1,5 @@
 ---
-layout: post                    # 사용할 레이아웃 (예: post.html 또는 default.html)
+layout: default                    # 사용할 레이아웃 (예: post.html 또는 default.html)
 title: "Jekyll 포스트 템플릿 예시"
 date: 2025-06-19 22:00:00 +0900
 tags: [jekyll, markdown, blog] # 태그 목록
