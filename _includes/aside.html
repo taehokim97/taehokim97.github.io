@@ -1,0 +1,17 @@
+<!-- 관련 글 사이드 바
+     현재 페이지에 related_posts가 정의된 경우에만 출력 -->
+<aside>
+  {% if page.related_posts %}
+    <h2> 관련 글</h2>
+    <ul>
+      {% for post_url in page.related_posts %}
+        <!-- 🔍 URL로 관련 포스트를 찾아 가져옴 (site.posts에서 검색 필요!) -->
+        {% assign post = site.posts | where: "url", post_url | first %}
+        <li>
+          <!-- 🧾 관련 글 제목 (없으면 URL 출력) -->
+          <a href="{{ post.url }}">{{ post.title | default: post.url }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</aside>
