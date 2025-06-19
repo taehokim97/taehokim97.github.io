@@ -1,8 +1,9 @@
-- 🏠 [홈](/index.md)
-- 🎞️ [**타임라인**](/timeline.md)
-- 💪 [건강](/health.md)
-
-- - -
+---
+layout: default
+title: "소개"
+description: "김태호의 소개 페이지입니다."
+permalink: /about/
+---
 
 ## 🎞️ 타임라인
 

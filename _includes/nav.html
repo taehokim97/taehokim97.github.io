@@ -1,6 +1,9 @@
+<!-- 사이트 내 주요 메뉴 내비게이션 -->
 <nav>
   <ul>
-    <li><a href="/">🏠 Home</a></li>
-    <li><a href="/">💪 Health</a></li>
+    <li><a href="{{ '/' | relative_url }}">홈</a></li>
+    <li><a href="{{ '/about'  | relative_url }}">소개</a></li>
+    <li><a href="{{ '/health' | relative_url }}">건강</a></li>
+    <li><a href="{{ '/posts'  | relative_url }}">블로그</a></li>
   </ul>
 </nav>

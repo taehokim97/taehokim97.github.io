@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
     {% include head-custom.html %}
   </head>
   <body>
     {% include header.html %}
-    {% include nav.html    %}
+
     <main>
+      {% include toc.html %}
+
       {{ content }}
+
+      {% include aside.html %}
     </main>
+
     {% include footer.html %}
   </body>
 </html>

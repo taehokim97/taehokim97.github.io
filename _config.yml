@@ -1,6 +1,9 @@
-title: Self-Logging
-theme: null
+title: "Taeho Kim"
+description: "Welcome Taeho Kim's Homepage 😊"
+url: "https://taehokim97.github.io"
+baseurl: ""
+author:
+    name: "김태호"
+    email: "sinabero3271@gmail.com"
 
-defaults:
-  -
-    layout: default
+theme: null

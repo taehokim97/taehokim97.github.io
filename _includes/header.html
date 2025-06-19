@@ -1,3 +1,8 @@
+<!-- 공통 헤더 영역 정의 -->
 <header>
-  <h1><a href="/">My Blog</a></h1>
+  <!-- 블로그 제목 클릭 시 홈으로 이동 -->
+  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+
+  <!-- 메인 네비게이션 메뉴 포함 -->
+  {% include nav.html %}
 </header>
